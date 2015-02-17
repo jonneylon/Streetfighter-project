@@ -1,0 +1,107 @@
+/*======== GLOBAL ===========*/ 
+body {
+  background-color: black;
+
+}
+ 
+.main {
+  background: url('../images/bg.gif') no-repeat;
+  background-size: 1280px 500px;
+  margin-top: 90px;
+  min-width: 1200px;
+  padding-left: 100px;
+  height: 500px;
+}
+ 
+
+/*======== RYU ===========*/ 
+
+.hadouken, .ryu-ready, .ryu-still, .ryu-cool, .ryu-throwing {
+  background-repeat: no-repeat;
+} 
+  
+.hadouken {
+  background-image: url('../images/hadouken.gif');
+  width: 156px; 
+  height: 90px;
+  display: none;
+  float: left;
+  position: relative;
+  top: 167px;
+  left: -212px;
+} 
+ 
+.ryu {
+  float: left;
+}
+ 
+.ryu-ready, .ryu-still, .ryu-throwing, .ryu-cool {
+  width: 659px;
+  height: 494px;
+}
+ 
+.ryu-ready, .ryu-throwing, .ryu-cool {
+  display: none;
+} 
+ 
+.ryu-ready {
+  background-image: url('../images/ryu-ready-position.gif');
+}
+ 
+.ryu-still {
+  background-image: url('../images/ryu-standing-still.png');
+}
+ 
+.ryu-throwing {
+  background-image: url('../images/ryu-throwing-hadouken.png');
+}
+
+.ryu-cool {
+  background-image: url('../images/ryu-cool.gif');
+}
+
+
+/*======== LOGO ===========*/
+
+.logo-content {
+  position: absolute;
+  left: 650px;
+  height: 425px;
+  width: 10rem;
+  padding-top: 75px;
+} 
+.sfLogo {
+  background-image: url('../images/sfLogo.png');
+  width: 682px;
+  height: 314px;
+  display: none;
+}
+
+
+/*======== HOW TO ===========*/
+
+.text-content{
+  position: absolute;
+  left: 650px;
+  height: 20px;
+  width: 600px;
+  padding-top: 60px;
+}
+
+.how-to {
+  width: 450px;
+  background: rgba(208,156,96,0.5);
+  padding: 10px 0 4px 14px;
+  border-radius: 12px 0 12px 0;
+  ;
+  
+}
+
+.how-to p {
+  font-family: helvetica;
+  color: white;
+  font-size: 2rem;
+}
+
+ 
+
